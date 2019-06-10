@@ -5,14 +5,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	_ "github.com/EDDYCJY/go-gin-example/docs"
 	"github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 
-	"github.com/EDDYCJY/go-gin-example/middleware/jwt"
-	"github.com/EDDYCJY/go-gin-example/pkg/export"
-	"github.com/EDDYCJY/go-gin-example/pkg/qrcode"
-	"github.com/EDDYCJY/go-gin-example/pkg/upload"
+	"github.com/khoaiscity/mlm/middleware/jwt"
+	"github.com/khoaiscity/mlm/pkg/export"
+	"github.com/khoaiscity/mlm/pkg/qrcode"
+	"github.com/khoaiscity/mlm/pkg/upload"
 	"github.com/khoaiscity/mlm/routers/api"
 	"github.com/khoaiscity/mlm/routers/api/v1"
 )
