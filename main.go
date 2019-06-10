@@ -9,7 +9,7 @@ import (
 
 	"github.com/khoaiscity/mlm/models"
 	"github.com/khoaiscity/mlm/pkg/gredis"
-	"github.com/khoaiscity/mlm/pkg/logging"
+
 	"github.com/khoaiscity/mlm/pkg/setting"
 	"github.com/khoaiscity/mlm/pkg/util"
 	"github.com/khoaiscity/mlm/routers"
@@ -18,7 +18,7 @@ import (
 func init() {
 	setting.Setup()
 	models.Setup()
-	logging.Setup()
+	//logging.Setup()
 	gredis.Setup()
 	util.Setup()
 }
