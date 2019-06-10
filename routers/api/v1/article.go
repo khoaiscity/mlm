@@ -8,11 +8,11 @@ import (
 	"github.com/boombuler/barcode/qr"
 	"github.com/gin-gonic/gin"
 
-	"github.com/EDDYCJY/go-gin-example/pkg/app"
-	"github.com/EDDYCJY/go-gin-example/pkg/e"
-	"github.com/EDDYCJY/go-gin-example/pkg/qrcode"
-	"github.com/EDDYCJY/go-gin-example/service/article_service"
-	"github.com/EDDYCJY/go-gin-example/service/tag_service"
+	"github.com/khoaiscity/mlm/pkg/app"
+	"github.com/khoaiscity/mlm/pkg/e"
+	"github.com/khoaiscity/mlm/pkg/qrcode"
+	"github.com/khoaiscity/mlm/service/article_service"
+	"github.com/khoaiscity/mlm/service/tag_service"
 )
 
 // @Summary Get a single article
