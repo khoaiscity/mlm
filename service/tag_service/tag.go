@@ -151,7 +151,7 @@ func (t *Tag) Import(r io.Reader) error {
 		return err
 	}
 
-	rows := xlsx.GetRows("标签信息")
+	rows, err := xlsx.GetRows("标签信息")
 	for irow, row := range rows {
 		if irow > 0 {
 			var data []string
