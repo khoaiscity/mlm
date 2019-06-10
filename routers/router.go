@@ -13,8 +13,8 @@ import (
 	"github.com/EDDYCJY/go-gin-example/pkg/export"
 	"github.com/EDDYCJY/go-gin-example/pkg/qrcode"
 	"github.com/EDDYCJY/go-gin-example/pkg/upload"
-	"github.com/EDDYCJY/go-gin-example/routers/api"
 	"github.com/EDDYCJY/go-gin-example/routers/api/v1"
+	"github.com/khoaiscity/mlm/routers/api"
 )
 
 // InitRouter initialize routing information
