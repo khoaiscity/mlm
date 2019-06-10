@@ -7,11 +7,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/EDDYCJY/go-gin-example/models"
-	"github.com/EDDYCJY/go-gin-example/pkg/gredis"
-	"github.com/EDDYCJY/go-gin-example/pkg/logging"
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
-	"github.com/EDDYCJY/go-gin-example/pkg/util"
+	"github.com/khoaiscity/mlm/models"
+	"github.com/khoaiscity/mlm/pkg/gredis"
+	"github.com/khoaiscity/mlm/pkg/logging"
+	"github.com/khoaiscity/mlm/pkg/setting"
+	"github.com/khoaiscity/mlm/pkg/util"
 	"github.com/khoaiscity/mlm/routers"
 )
 
