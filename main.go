@@ -12,7 +12,6 @@ import (
 	"github.com/EDDYCJY/go-gin-example/pkg/logging"
 	"github.com/EDDYCJY/go-gin-example/pkg/setting"
 	"github.com/EDDYCJY/go-gin-example/pkg/util"
-	//"github.com/EDDYCJY/go-gin-example/routers"
 	"github.com/khoaiscity/mlm/routers"
 )
 
